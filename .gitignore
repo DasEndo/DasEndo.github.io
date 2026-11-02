@@ -1,0 +1,19 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.prerender/
+.pnpm-store/
+
+# Local configuration and environment files
+*.local
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
