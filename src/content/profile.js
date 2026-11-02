@@ -2,7 +2,7 @@
 export const profile = {
   name: 'Endo',
   handle: 'DASENDO',
-  tagline: 'Game development & personal projects.',
+  tagline: 'Game development, personal projects & more.',
   location: 'Germany',
   github: 'https://github.com/DasEndo',
   about: [
@@ -22,7 +22,6 @@ export const profile = {
     { name: 'Vue.js', kind: 'framework' },
     { name: 'PHP', kind: 'language' },
     { name: 'Python', kind: 'language' },
-    { name: 'MariaDB', kind: 'program' },
     { name: 'IntelliJ IDEA', kind: 'program' },
     { name: 'Visual Studio Code', kind: 'program' },
   ],

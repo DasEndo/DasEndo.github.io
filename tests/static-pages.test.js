@@ -22,7 +22,7 @@ after(async () => {
 
 test('clean URLs serve the correct content as HTML before JavaScript runs', async () => {
   for (const [path, expected] of [
-    ['/', 'Game development &amp; personal projects.'],
+    ['/', 'Game development, personal projects &amp; more.'],
     ['/about/', 'mostly working on games'],
     ['/toolbox/', 'The toolbox.'],
     ['/contact/', 'dasendo@pm.me'],

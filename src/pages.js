@@ -6,11 +6,11 @@ import ImprintView from './views/ImprintView.vue';
 import NotFoundView from './views/NotFoundView.vue';
 import { profile } from './content/profile.js';
 
-const title = label => `${label} — ${profile.name}`;
+const title = label => `${label} - ${profile.name}`;
 
 // One registry controls Vue routes, menu entries, and the generated HTML pages.
 export const pages = [
-  { name: 'menu', path: '/', title: `${profile.name} — A personal space`, component: MainMenu },
+  { name: 'menu', path: '/', title: `${profile.name}'s personal space`, component: MainMenu },
   { name: 'about', path: '/about/', label: 'About me', title: title('About'), component: AboutView, menu: true },
   { name: 'toolbox', path: '/toolbox/', label: 'Toolbox', title: title('Toolbox'), component: ToolboxView, menu: true },
   { name: 'contact', path: '/contact/', label: 'Say hello', title: title('Contact'), component: ContactView, menu: true },

@@ -85,8 +85,8 @@ onUnmounted(() => document.removeEventListener('keydown', onKeydown));
     <footer class="site-footer">
       <span>{{ profile.location }}</span>
       <div class="footer-actions">
-        <RouterLink to="/legal-notice/">Legal notice</RouterLink>
         <button class="motion-toggle" type="button" :aria-pressed="paused" @click="paused = !paused">{{ paused ? 'Resume motion' : 'Pause motion' }}</button>
+        <RouterLink to="/legal-notice/">Legal notice</RouterLink>
         <a :href="profile.github">GitHub <span aria-hidden="true">↗</span></a>
       </div>
     </footer>
